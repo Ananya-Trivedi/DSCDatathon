@@ -1,8 +1,9 @@
 # DSCDatathon
 
 ## Links to the datasets used
-Obesity dataset: https://apps.who.int/gho/data/node.main.A900A?lang=en
-CO2 emissions dataset: https://www.kaggle.com/kkhandekar/co2-emissions-1960-2018
+Obesity dataset: https://apps.who.int/gho/data/node.main.A900A?lang=en <br />
+CO2 emissions dataset: https://www.kaggle.com/kkhandekar/co2-emissions-1960-2018 <br />
+GDP/capita dataset: https://www.kaggle.com/nitishabharathi/gdp-per-capita-all-countries <br />
 **For the set-up, please scroll down to the bottom of this README.md file**
 
 The rapid climate change and increasing obesity rates are two significant concerns for policy makers around the world. We aim to determine if climate change, in particular increasing CO2 emissions, be a driver for the global obesity rates. At first it might seem like CO2 and obesity rates are completely unrelated. However, on analyzing trends including the countries' GDP per capita and the meat consumption/production frequencies, we were able to understand why there is an underlying relationship.
@@ -25,4 +26,6 @@ Overall, this was a very enjoyable project and I believe it contributed to our l
 
 
 ## Setting up the environment for reproducability
+Our code is in the form of an RMarkdown File. In order to reproduce the code, all you really need is the .zip file with the 3 datasets we used and the .rmd file (uploaded onto GitHub).
 
+You will, however, need to edit the root folder in the commands that import the datasets (or you can go into RStudio, navigate to File-> Import Dataset to import the 3 datasets and then you can ignore the following code block in the .rmd file)
