@@ -1,5 +1,7 @@
 # DSCDatathon
 
+A combination of 3 datasets was used to merge into a single, cleaned and more useful dataset using R (see DSCDatathon 2\merged.csv in the attached GitHub files)
+
 ## Links to the datasets used
 Obesity dataset: https://apps.who.int/gho/data/node.main.A900A?lang=en <br />
 CO2 emissions dataset: https://www.kaggle.com/kkhandekar/co2-emissions-1960-2018 <br />
@@ -18,11 +20,9 @@ We chose to take the regression route since we were more focussed on the gatheri
 ## Conclusion
 Based on our findings, there was a clear positive relationship between the GDP per capita, global CO2 emissions and the obesity rates throughout all countries. Although we cannot establish a clear causative relationship between the two, we were able to identify possible factors that played a role. 
 
-A possible driving factor is the worldwide meat consumption. Although it would be hard for us to quantify the proportion of greenhouse gases being a result of meat consumption, we referred to a report published by University of California. According to it, the current meat production and consumption patterns account for 15-24% of the greenhouse emissions.
-
-
-## Improvements
-Overall, this was a very enjoyable project and I believe it contributed to our learning A LOT! There were a bunch of things we were proud with our performance in! There were also a couple instances where we could have made improvements in.
+The following observations and inferences were made:
+1. The GDP per capita also had a positive relationship with the CO2 emmissions and obesity levels.
+2. An increase in the global CO2 levels was liked to an increase in the prevalence of obesity worldwide.
 
 
 ## Setting up the environment for reproducability
