@@ -8,8 +8,7 @@ CO2 emissions dataset: https://www.kaggle.com/kkhandekar/co2-emissions-1960-2018
 GDP/capita dataset: https://www.kaggle.com/nitishabharathi/gdp-per-capita-all-countries <br />
 **For the set-up, please scroll down to the bottom of this README.md file**
 
-The rapid climate change and increasing obesity rates are two significant concerns for policy makers around the world. We aim to determine if climate change, in particular increasing CO2 emissions, be a driver for the global obesity rates. At first it might seem like CO2 and obesity rates are completely unrelated. However, on analyzing trends including the countries' GDP per capita and the meat consumption/production frequencies, we were able to understand why there is an underlying relationship.
-
+The rapid climate change and increasing obesity rates are two significant concerns for policy makers around the world. We aim to determine if climate change, in particular increasing CO2 emissions, be a driver for the global obesity rates. Additionally, we also looked at the GDP per capita for countries in order to determine if a relationship between that and obesity exists. At first it might seem like CO2, GDP/capita and obesity rates are completely unrelated. Therefore, we aim to uncover relevent trends and will then present our findings. 
 
 ## Data Analysis and Methodology 
 For the purpose of this project, 3 primary data sets were used; global CO2 emissions, prevalence of obesity among adults and the GDP per capita, with all values categorized based on countries. For purposes of data cleaning, processing and plotting, we decided to use R as a programming language since it was common in the team-members' skill-set.
@@ -21,8 +20,9 @@ We chose to take the regression route since we were more focussed on the gatheri
 Based on our findings, there was a clear positive relationship between the GDP per capita, global CO2 emissions and the obesity rates throughout all countries. Although we cannot establish a clear causative relationship between the two, we were able to identify possible factors that played a role. 
 
 The following observations and inferences were made:
-1. The GDP per capita also had a positive relationship with the CO2 emmissions and obesity levels.
-2. An increase in the global CO2 levels was liked to an increase in the prevalence of obesity worldwide.
+1. The GDP per capita also had a positive relationship with the obesity levels.
+2. There was no significant relationship between the global CO2 levels on the other 2 atributesprevalence of obesity worldwide, or the GDP.
+3. There was no 
 
 
 ## Setting up the environment for reproducability
