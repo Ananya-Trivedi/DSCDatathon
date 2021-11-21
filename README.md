@@ -15,12 +15,14 @@ For the purpose of this project, 3 primary data sets were used; global CO2 emiss
 
 We chose to take the regression route since we were more focussed on the gathering, cleaning and processing big-data rather than machine learning. In the future, however, we can employ machine learning models to provide an estimated value from predictive features with the same datasets. For instance, if policy makers were to implement caps on how much CO2 emissions a nation is allowed to produce annually. A machine-learning predictive model will be extremely useful in this case as it might give us predictions of limits on meat production and other industries (which will inturn curb the national CO2 emissions)
 
+## Hypothesis
+GDP/capita, CO2 emmissions/capita and prevelence of obesity, all have a positive relationship (ideally linear)
 
 ## Conclusion
 
 The following observations and inferences were made:
 1. The GDP per capita had a positive relationship with the obesity levels.
-2. There was no significant relationship between the global CO2 levels on the other 2 atributesprevalence of obesity worldwide, or the GDP (which contradicted our hypothesis). However, an article published by The National Library of Medicine (one of several) state that "GDP also positively related to CO(2) emissions with a recognised sustainable carbon footprint of less than 5 tonnes per capita occurring at a GDP of <$US15,000" (https://pubmed.ncbi.nlm.nih.gov/22305524/)
+2. There was no significant relationship between the global CO2 levels on the other 2 atributes (prevalence of obesity worldwide, or the GDP, which contradicts our hypothesis). However, an article published by The National Library of Medicine (one of several) stated that "GDP positively related to CO(2) emissions with a recognised sustainable carbon footprint of less than 5 tonnes per capita occurring at a GDP of <$US15,000" (https://pubmed.ncbi.nlm.nih.gov/22305524/).
 
 Based on our hypothesis (a rise in CO2 emissions was linked to increasing obesity levels), we assumed that increased meat consumption and production could be a key factor in the positive relation between CO2 and obesity. However, this was not the case since the CO2 emmissions per capita did not increase.
 
