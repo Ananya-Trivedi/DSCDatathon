@@ -12,9 +12,6 @@ print(getwd())
 
 # Data Retreival
 ```{r}
-meat <- read.csv("datathon_data/meat.csv", header=TRUE,
-   sep=",")
-
 gdp.ds <- read.csv("datathon_data/gdp.csv", header=TRUE,
    sep=",")
 
