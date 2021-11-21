@@ -125,9 +125,9 @@ obesity.female.vals <- c()
 gdp.vals <- c()
 for(cunch in selected.countries) {
    co2.vals <- c(co2.vals, co2.emm$emissions[co2.emm["Country"] == cunch])
-   obesity.both.vals <- c(obesity.vals, obesity$obesity.both[obesity["Country"] == cunch])
-   obesity.male.vals <- c(obesity.vals, obesity$obesity.male[obesity["Country"] == cunch])
-   obesity.female.vals <- c(obesity.vals, obesity$obesity.female[obesity["Country"] == cunch])
+   obesity.both.vals <- c(obesity.both.vals, obesity$obesity.both[obesity["Country"] == cunch])
+   obesity.male.vals <- c(obesity.male.vals, obesity$obesity.male[obesity["Country"] == cunch])
+   obesity.female.vals <- c(obesity.female.vals, obesity$obesity.female[obesity["Country"] == cunch])
    gdp.vals <- c(gdp.vals, gdp$gdp.per.capita[gdp["Country"] == cunch])
 }
 
